@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B3943953C2EE66E63A5E0C84"
+               BuildableName = "OAuth2 Linkedin iOS.app"
+               BlueprintName = "OAuth2 Linkedin iOS"
+               ReferencedContainer = "container:OAuth2 Linkedin iOS.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "B3943953C2EE66E63A5E0C84"
+            BuildableName = "OAuth2 Linkedin iOS.app"
+            BlueprintName = "OAuth2 Linkedin iOS"
+            ReferencedContainer = "container:OAuth2 Linkedin iOS.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+</Scheme>
