@@ -1,12 +1,10 @@
 //
 //  AppDelegate.swift
-//  LinkedIn Authentication Swift
+//  Facebook Authentication Swift
 //
-//  Created by SwiftBlog on 2/25/15.
+//  Created by SwiftBlog on 2/26/15.
 //  Copyright (c) 2015 SwiftBlog. All rights reserved.
 //
-//  This code is intended to be used as a guideline for authentication.
-//  This code is not a fully functional authentication framework to be used in production.
 
 
 import Cocoa
@@ -21,10 +19,9 @@ class AppDelegate: NSObject, NSApplicationDelegate, WKNavigationDelegate {
     let webView = WKWebView(frame: NSMakeRect(0, 0, NSScreen.mainScreen()!.frame.width/2, NSScreen.mainScreen()!.frame.height*0.75))
 
     // Step 1:  Define the authentication parameters
-    let grantType = "authorization_code"
-    var redirectUrl = "http://www.apakau.com"
-    let apiKey = "75kh1ysttpalza"
-    let secretKey = "usAFNc1FF6MyVG2C"
+    var redirectUrl = "http://www.apakau.com/"
+    let appID = "433011653533087"
+    let secretKey = "76fca3fd044ceac0913382c10f2779e6"
     let responseType = "code"
     let randomState = "jdhfgrueFSH16dh88352jsGSD"
 
@@ -32,17 +29,17 @@ class AppDelegate: NSObject, NSApplicationDelegate, WKNavigationDelegate {
 
         // Create the preference settings and configuration for the web view
         let preferences = WKPreferences()
-        preferences.javaScriptEnabled = false
+        preferences.javaScriptEnabled = true
         let configuration = WKWebViewConfiguration()
         configuration.preferences = preferences
 
         webView.navigationDelegate = self
 
         // Step 2: Request an Authorization Code
-        var authUrl = NSURL(string: "https://www.linkedin.com/uas/oauth2/authorization?response_type=\(responseType)" +
-                "&client_id=\(apiKey)" +
+        var authUrl = NSURL(string: "https://www.facebook.com/dialog/oauth?client_id=\(appID)" +
+                "&redirect_uri=\(redirectUrl)" +
                 "&state=\(randomState)" +
-                "&redirect_uri=\(redirectUrl)")
+                "&response_type=\(responseType)")
 
         var request = NSMutableURLRequest(URL: authUrl!)
         webView.loadRequest(request)
@@ -75,51 +72,47 @@ class AppDelegate: NSObject, NSApplicationDelegate, WKNavigationDelegate {
         if (dict["code"] != nil /** && dict["status"] == randomState */) {
             var authCode: NSString = dict["code"] as NSString
             println(authCode)
-            println(dict["status"])
+            println(dict["state"])
 
-            var tokenUrl = NSURL(string: "https://www.linkedin.com/uas/oauth2/accessToken?grant_type=\(grantType)&code=\(authCode)&redirect_uri=\(redirectUrl)&client_id=\(apiKey)&client_secret=\(secretKey)")
+            var tokenUrl = NSURL(string: "https://graph.facebook.com/oauth/access_token?client_id=\(appID)&redirect_uri=\(redirectUrl)&client_secret=\(secretKey)&code=\(authCode)")
 
             var session = NSURLSession.sharedSession()
             var requestToken = NSMutableURLRequest(URL: tokenUrl!)
 
-            requestToken.HTTPMethod = "POST"
             var task = session.dataTaskWithRequest(requestToken, completionHandler: {
                 data, response, error -> Void in
                 println("Response: \(response)")
-                var err: NSError?
-                var jsonResult = NSJSONSerialization.JSONObjectWithData(data, options: NSJSONReadingOptions.MutableContainers, error: &err) as NSDictionary
-                if (err != nil) {
-                    println(err!.localizedDescription)
-                    var strData = NSString(data: data, encoding: NSUTF8StringEncoding)
-                    println("Error: Could not parse JSON: '\(strData)")
-                } else {
-                    println("Result containing token: \(jsonResult)")
-                    var token: NSString = jsonResult["access_token"] as NSString
-                    println(token)
 
-                    // Step 4: Make authenticated requests with the token
-                    var apiUrl = NSURL(string: "https://api.linkedin.com/v1/people/~")
-                    var requestAuthenticated = NSMutableURLRequest(URL: apiUrl!)
+                var token = NSDictionary(object: data, forKey: "access_token")
+                var strData = NSString(data: data, encoding: NSUTF8StringEncoding)
+                //var token: NSString = jsonResult["access_token"] as NSString
 
-                    requestAuthenticated.addValue("Keep-Alive", forHTTPHeaderField: "Connection")
-                    requestAuthenticated.addValue("Bearer \(token)", forHTTPHeaderField: "Authorization")
+                println(strData)
+                println(token)
 
-                    var task = session.dataTaskWithRequest(requestAuthenticated, completionHandler: {
-                        data, response, error -> Void in
-                        println("Response: \(response)")
-                        var strData = NSString(data: data, encoding: NSUTF8StringEncoding)
-                        println("Data: \(strData)")
-                    })
+/**
+                        // Step 4: Make authenticated requests with the token
+                        var apiUrl = NSURL(string: "https://graph.facebook.com/v2.2/me?access_token=\(token)")
+                        var requestAuthenticated = NSMutableURLRequest(URL: apiUrl!)
 
-                    task.resume()
+                        requestAuthenticated.addValue("Keep-Alive", forHTTPHeaderField: "Connection")
 
-                }
+                        var task = session.dataTaskWithRequest(requestAuthenticated, completionHandler: {
+                            data, response, error -> Void in
+                            println("Response: \(response)")
+                            var strData = NSString(data: data, encoding: NSUTF8StringEncoding)
+                            println("Data: \(strData)")
+                        })
+
+                        task.resume()
+                    }*/
             })
 
             task.resume()
 
-        // If the user declines access, print to the concole the error and error description that were included in the redirect URL
+            // If the user declines access, print to the concole the error and error description that were included in the redirect URL
         } else if (dict["error"] != nil) {
+            println(dict["error_reason"])
             println(dict["error"])
             println(dict["error_description"])
 

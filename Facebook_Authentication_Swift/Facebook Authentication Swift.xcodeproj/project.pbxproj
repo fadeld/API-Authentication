@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B39439754BD139039E79AFCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3943ED9C33A83096ABECEF0 /* AppDelegate.swift */; };
+		B3943AF7816201E011601C73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3943C4312BD3765B48C2330 /* ViewController.swift */; };
+		B3943E5727516D477634C448 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B39437B3BC60F9220A5E9B23 /* Images.xcassets */; };
+		B3943F5A82A163F8E18947E8 /* Facebook_Authentication_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3943CA98212C0D9E8650AF4 /* Facebook_Authentication_SwiftTests.swift */; };
+		B3943F8195DBEEAB90666F12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3943D139438A3D8EFED7038 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B394308F98F6596EBB7944D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3943EE272B022D1D75CCC49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3943D8AF499D78546A30077;
+			remoteInfo = "Facebook Authentication Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B39430DCE1334B43FA32190A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B39433B3EEC2B4C4AF7889D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		B3943519E2883B78794AB400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		B39437B3BC60F9220A5E9B23 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B3943C4312BD3765B48C2330 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B3943CA98212C0D9E8650AF4 /* Facebook_Authentication_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facebook_Authentication_SwiftTests.swift; sourceTree = "<group>"; };
+		B3943CC5E797E1CFB25606FE /* Facebook Authentication SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Facebook Authentication SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3943D56E167A6ED2F312E0B /* Facebook Authentication Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Facebook Authentication Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3943ED9C33A83096ABECEF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B39432BB9D4101B78ED37AAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3943A553FEBE68B4FF39581 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B39434E116DD25F9112A11ED /* Facebook Authentication Swift */ = {
+			isa = PBXGroup;
+			children = (
+				B3943D3222FCC0995F6054C4 /* Supporting Files */,
+				B39437B3BC60F9220A5E9B23 /* Images.xcassets */,
+				B3943ED9C33A83096ABECEF0 /* AppDelegate.swift */,
+				B3943D139438A3D8EFED7038 /* Main.storyboard */,
+				B3943C4312BD3765B48C2330 /* ViewController.swift */,
+			);
+			path = "Facebook Authentication Swift";
+			sourceTree = "<group>";
+		};
+		B39436F67BBB2B57943B571A /* Facebook Authentication SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				B39437E01D80E9F9F364F30F /* Supporting Files */,
+				B3943CA98212C0D9E8650AF4 /* Facebook_Authentication_SwiftTests.swift */,
+			);
+			path = "Facebook Authentication SwiftTests";
+			sourceTree = "<group>";
+		};
+		B39437E01D80E9F9F364F30F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3943519E2883B78794AB400 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3943ACCDC65EAE4B2DF2348 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3943D56E167A6ED2F312E0B /* Facebook Authentication Swift.app */,
+				B3943CC5E797E1CFB25606FE /* Facebook Authentication SwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3943D3222FCC0995F6054C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B39433B3EEC2B4C4AF7889D6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3943D6092490B5838884A04 = {
+			isa = PBXGroup;
+			children = (
+				B3943ACCDC65EAE4B2DF2348 /* Products */,
+				B39434E116DD25F9112A11ED /* Facebook Authentication Swift */,
+				B39436F67BBB2B57943B571A /* Facebook Authentication SwiftTests */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3943C645AF8875B08D8E0C1 /* Facebook Authentication SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3943D43BCEC6678E08D19BE /* Build configuration list for PBXNativeTarget "Facebook Authentication SwiftTests" */;
+			buildPhases = (
+				B39436ABB5031BDD56D5C95F /* Sources */,
+				B39432BB9D4101B78ED37AAC /* Frameworks */,
+				B394304ACB0DE9B0837CD1E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3943B5CD964781949A8CD3F /* PBXTargetDependency */,
+			);
+			name = "Facebook Authentication SwiftTests";
+			productName = "Facebook Authentication SwiftTests";
+			productReference = B3943CC5E797E1CFB25606FE /* Facebook Authentication SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B3943D8AF499D78546A30077 /* Facebook Authentication Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3943E85761D0304E2B97378 /* Build configuration list for PBXNativeTarget "Facebook Authentication Swift" */;
+			buildPhases = (
+				B3943F26F111AC9CEE9BF0B0 /* Sources */,
+				B3943A553FEBE68B4FF39581 /* Frameworks */,
+				B3943E598B5F0CC02FE5D6D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Facebook Authentication Swift";
+			productName = "Facebook Authentication Swift";
+			productReference = B3943D56E167A6ED2F312E0B /* Facebook Authentication Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3943EE272B022D1D75CCC49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = SwiftBlog;
+			};
+			buildConfigurationList = B3943F9D8C3C3B14D0EC1885 /* Build configuration list for PBXProject "Facebook Authentication Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B3943D6092490B5838884A04;
+			productRefGroup = B3943ACCDC65EAE4B2DF2348 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3943D8AF499D78546A30077 /* Facebook Authentication Swift */,
+				B3943C645AF8875B08D8E0C1 /* Facebook Authentication SwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B394304ACB0DE9B0837CD1E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3943E598B5F0CC02FE5D6D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3943E5727516D477634C448 /* Images.xcassets in Resources */,
+				B3943F8195DBEEAB90666F12 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B39436ABB5031BDD56D5C95F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3943F5A82A163F8E18947E8 /* Facebook_Authentication_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3943F26F111AC9CEE9BF0B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B39439754BD139039E79AFCE /* AppDelegate.swift in Sources */,
+				B3943AF7816201E011601C73 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3943B5CD964781949A8CD3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3943D8AF499D78546A30077 /* Facebook Authentication Swift */;
+			targetProxy = B394308F98F6596EBB7944D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3943D139438A3D8EFED7038 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B39430DCE1334B43FA32190A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B39430DC9243D86B93CBC3E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Facebook Authentication Swift.app/Contents/MacOS/Facebook Authentication Swift";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Facebook Authentication SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		B394335778845FCE87DCF273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Facebook Authentication Swift.app/Contents/MacOS/Facebook Authentication Swift";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Facebook Authentication SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		B394360BFBA118140AB11128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B39438DE8A268131F7833E1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Facebook Authentication Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B3943D18399B4DCCE5B6DC90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3943DA7889C71B5A804BEBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Facebook Authentication Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3943D43BCEC6678E08D19BE /* Build configuration list for PBXNativeTarget "Facebook Authentication SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B394335778845FCE87DCF273 /* Debug */,
+				B39430DC9243D86B93CBC3E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B3943E85761D0304E2B97378 /* Build configuration list for PBXNativeTarget "Facebook Authentication Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3943DA7889C71B5A804BEBA /* Debug */,
+				B39438DE8A268131F7833E1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B3943F9D8C3C3B14D0EC1885 /* Build configuration list for PBXProject "Facebook Authentication Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3943D18399B4DCCE5B6DC90 /* Debug */,
+				B394360BFBA118140AB11128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3943EE272B022D1D75CCC49 /* Project object */;
+}
