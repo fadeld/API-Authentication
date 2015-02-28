@@ -83,14 +83,17 @@ class AppDelegate: NSObject, NSApplicationDelegate, WKNavigationDelegate {
                 data, response, error -> Void in
                 println("Response: \(response)")
 
-                var token = NSDictionary(object: data, forKey: "access_token")
                 var strData = NSString(data: data, encoding: NSUTF8StringEncoding)
-                //var token: NSString = jsonResult["access_token"] as NSString
-
                 println(strData)
-                println(token)
+                var range1 = strData!.rangeOfString("&")
+                if (range1.length > 0) {
+                    var toIndex: Int = range1.location
+                    var str: NSString = strData!.substringToIndex(toIndex)
+                    var range2 = strData!.rangeOfString("access_token=")
+                    var fromIndex: Int = range2.location + range2.length
+                    var token: NSString = str.substringFromIndex(fromIndex)
+                    println(token)
 
-/**
                         // Step 4: Make authenticated requests with the token
                         var apiUrl = NSURL(string: "https://graph.facebook.com/v2.2/me?access_token=\(token)")
                         var requestAuthenticated = NSMutableURLRequest(URL: apiUrl!)
@@ -102,10 +105,20 @@ class AppDelegate: NSObject, NSApplicationDelegate, WKNavigationDelegate {
                             println("Response: \(response)")
                             var strData = NSString(data: data, encoding: NSUTF8StringEncoding)
                             println("Data: \(strData)")
+
+                            var err: NSError?
+                            var jsonResult = NSJSONSerialization.JSONObjectWithData(data, options: NSJSONReadingOptions.MutableContainers, error: &err) as NSDictionary
+                            if (err != nil) {
+                                println(err!.localizedDescription)
+                                var strData = NSString(data: data, encoding: NSUTF8StringEncoding)
+                                println("Error: Could not parse JSON: '\(strData)")
+                            } else {
+                                println(jsonResult)
+                            }
                         })
 
                         task.resume()
-                    }*/
+                    }
             })
 
             task.resume()
