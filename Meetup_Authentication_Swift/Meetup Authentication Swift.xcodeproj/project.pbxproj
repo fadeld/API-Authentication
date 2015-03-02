@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B39430F9D49179A9EEC4F2F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B39432B623BB1C465A8F5868 /* Main.storyboard */; };
+		B39439C03A99E2F7D66C0C16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3943361741466B10F6AA273 /* AppDelegate.swift */; };
+		B3943A7643CB0C7396C4D48A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3943ACEA1FA8E6645862006 /* Images.xcassets */; };
+		B3943DF942918548E91BA8D5 /* Meetup_Authentication_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39439FE0A5A4371B55C1D27 /* Meetup_Authentication_SwiftTests.swift */; };
+		B3943E7F4F5A8771353AF5F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39433A13C31E418A9577937 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3943DF91DC0E51076246877 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B394389C65DB6F8074471CB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3943608B27CAC587F6B787C;
+			remoteInfo = "Meetup Authentication Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B3943361741466B10F6AA273 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B39433A13C31E418A9577937 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B39433A256ADD7A4720FEFFB /* Meetup Authentication Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meetup Authentication Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B39437DD343532BD194FA254 /* Meetup Authentication SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meetup Authentication SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B39439FE0A5A4371B55C1D27 /* Meetup_Authentication_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meetup_Authentication_SwiftTests.swift; sourceTree = "<group>"; };
+		B3943ABDF68FB2E8395F66D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		B3943ACEA1FA8E6645862006 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B3943CAD342EC0CF3C18C61A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3943CF5992CA784C3E7C059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B39439633470AB278964F4F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3943ADC66197CCB4A203481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B394314DD48CA9038DB6E146 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3943ABDF68FB2E8395F66D6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3943372D955F4C143EF0A2E /* Meetup Authentication Swift */ = {
+			isa = PBXGroup;
+			children = (
+				B394357FF26709309526AE7D /* Supporting Files */,
+				B3943ACEA1FA8E6645862006 /* Images.xcassets */,
+				B3943361741466B10F6AA273 /* AppDelegate.swift */,
+				B39432B623BB1C465A8F5868 /* Main.storyboard */,
+				B39433A13C31E418A9577937 /* ViewController.swift */,
+			);
+			path = "Meetup Authentication Swift";
+			sourceTree = "<group>";
+		};
+		B394357FF26709309526AE7D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3943CF5992CA784C3E7C059 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B394362E6CC05438A9D385C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B39433A256ADD7A4720FEFFB /* Meetup Authentication Swift.app */,
+				B39437DD343532BD194FA254 /* Meetup Authentication SwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B394394D50D52676C90832F0 /* Meetup Authentication SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				B394314DD48CA9038DB6E146 /* Supporting Files */,
+				B39439FE0A5A4371B55C1D27 /* Meetup_Authentication_SwiftTests.swift */,
+			);
+			path = "Meetup Authentication SwiftTests";
+			sourceTree = "<group>";
+		};
+		B3943CBED06A8C42E142FFA5 = {
+			isa = PBXGroup;
+			children = (
+				B394362E6CC05438A9D385C5 /* Products */,
+				B3943372D955F4C143EF0A2E /* Meetup Authentication Swift */,
+				B394394D50D52676C90832F0 /* Meetup Authentication SwiftTests */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3943608B27CAC587F6B787C /* Meetup Authentication Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B39435F6D037126E0C8D8CF4 /* Build configuration list for PBXNativeTarget "Meetup Authentication Swift" */;
+			buildPhases = (
+				B3943344B252E85273239BF9 /* Sources */,
+				B39439633470AB278964F4F2 /* Frameworks */,
+				B39432ECCDDE2FB216ABDCAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Meetup Authentication Swift";
+			productName = "Meetup Authentication Swift";
+			productReference = B39433A256ADD7A4720FEFFB /* Meetup Authentication Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3943D602C11C245414DDB27 /* Meetup Authentication SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3943EA0804F359F7CD901FE /* Build configuration list for PBXNativeTarget "Meetup Authentication SwiftTests" */;
+			buildPhases = (
+				B3943ACCFD2363ABFDBE8F73 /* Sources */,
+				B3943ADC66197CCB4A203481 /* Frameworks */,
+				B3943A0EA3F61D885D1ADECD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3943FF83AF311AAE5C61D3D /* PBXTargetDependency */,
+			);
+			name = "Meetup Authentication SwiftTests";
+			productName = "Meetup Authentication SwiftTests";
+			productReference = B39437DD343532BD194FA254 /* Meetup Authentication SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B394389C65DB6F8074471CB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = SwiftBlog;
+			};
+			buildConfigurationList = B394393A18479F4941252E68 /* Build configuration list for PBXProject "Meetup Authentication Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B3943CBED06A8C42E142FFA5;
+			productRefGroup = B394362E6CC05438A9D385C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3943608B27CAC587F6B787C /* Meetup Authentication Swift */,
+				B3943D602C11C245414DDB27 /* Meetup Authentication SwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B39432ECCDDE2FB216ABDCAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3943A7643CB0C7396C4D48A /* Images.xcassets in Resources */,
+				B39430F9D49179A9EEC4F2F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3943A0EA3F61D885D1ADECD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3943344B252E85273239BF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B39439C03A99E2F7D66C0C16 /* AppDelegate.swift in Sources */,
+				B3943E7F4F5A8771353AF5F1 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3943ACCFD2363ABFDBE8F73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3943DF942918548E91BA8D5 /* Meetup_Authentication_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3943FF83AF311AAE5C61D3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3943608B27CAC587F6B787C /* Meetup Authentication Swift */;
+			targetProxy = B3943DF91DC0E51076246877 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B39432B623BB1C465A8F5868 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3943CAD342EC0CF3C18C61A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B39430C0E2C92778A0D03C95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B394319BE58C7F90D2923C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Meetup Authentication Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B3943648EDAFB224FC870BE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Meetup Authentication Swift.app/Contents/MacOS/Meetup Authentication Swift";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Meetup Authentication SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		B39436C3ABDCD2BD883C7698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Meetup Authentication Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B39437DAA11C65CC5DEE9483 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Meetup Authentication Swift.app/Contents/MacOS/Meetup Authentication Swift";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Meetup Authentication SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		B3943915FD8C68082B02BA34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B39435F6D037126E0C8D8CF4 /* Build configuration list for PBXNativeTarget "Meetup Authentication Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B394319BE58C7F90D2923C12 /* Debug */,
+				B39436C3ABDCD2BD883C7698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B394393A18479F4941252E68 /* Build configuration list for PBXProject "Meetup Authentication Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B39430C0E2C92778A0D03C95 /* Debug */,
+				B3943915FD8C68082B02BA34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3943EA0804F359F7CD901FE /* Build configuration list for PBXNativeTarget "Meetup Authentication SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3943648EDAFB224FC870BE6 /* Debug */,
+				B39437DAA11C65CC5DEE9483 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B394389C65DB6F8074471CB2 /* Project object */;
+}
