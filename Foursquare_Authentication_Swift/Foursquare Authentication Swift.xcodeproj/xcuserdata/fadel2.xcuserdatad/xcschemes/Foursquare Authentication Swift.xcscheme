@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B39436057088704CDF962125"
+               BuildableName = "Foursquare Authentication Swift.app"
+               BlueprintName = "Foursquare Authentication Swift"
+               ReferencedContainer = "container:Foursquare Authentication Swift.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "B39436057088704CDF962125"
+            BuildableName = "Foursquare Authentication Swift.app"
+            BlueprintName = "Foursquare Authentication Swift"
+            ReferencedContainer = "container:Foursquare Authentication Swift.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+</Scheme>
