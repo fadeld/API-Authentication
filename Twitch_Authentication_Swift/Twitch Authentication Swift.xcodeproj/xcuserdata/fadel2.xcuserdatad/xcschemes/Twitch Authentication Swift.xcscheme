@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B3943F4E971DF6B0ACB25F06"
+               BuildableName = "Twitch Authentication Swift.app"
+               BlueprintName = "Twitch Authentication Swift"
+               ReferencedContainer = "container:Twitch Authentication Swift.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "B3943F4E971DF6B0ACB25F06"
+            BuildableName = "Twitch Authentication Swift.app"
+            BlueprintName = "Twitch Authentication Swift"
+            ReferencedContainer = "container:Twitch Authentication Swift.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+</Scheme>
