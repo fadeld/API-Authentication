@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B394346D74F764059D443812 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3943F71B2ADDD8D2D70DF06 /* Main.storyboard */; };
+		B39435C04225ABA948960E0B /* Battle_net_Authentication_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3943DD6AE85233FDAAC1CF3 /* Battle_net_Authentication_SwiftTests.swift */; };
+		B394386C9A848C326F1E8051 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B394395D47DA9C122DD0A87D /* Images.xcassets */; };
+		B3943A7D36F1B4A81184AC49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39430D2640C7E15ECE6D0BD /* ViewController.swift */; };
+		B3943B50A4B9A54E39DA47D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3943D80348A27B8E717E2B1 /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B39431272BC900B56C1E92A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B39438928BE1477D4E21E0C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3943DD325B377B59AAEF7E1;
+			remoteInfo = "Battle.net Authentication Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B39430D2640C7E15ECE6D0BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B394315C3D3D167AD3BB4B74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B39437283AE5E35FCBDD3A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		B394395D47DA9C122DD0A87D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B3943BCE318C80812B7ABBB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		B3943D80348A27B8E717E2B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3943DD6AE85233FDAAC1CF3 /* Battle_net_Authentication_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Battle_net_Authentication_SwiftTests.swift; sourceTree = "<group>"; };
+		B3943EC0B3AF596FEEE0C1EC /* Battle.net Authentication SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Battle.net Authentication SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3943FF91479ACFFAEAE477E /* Battle.net Authentication Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Battle.net Authentication Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B39432059E99DCEC56777E02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B39439EACAF2ED31744BFD76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B394302441CC2D7743CD0BA9 /* Battle.net Authentication Swift */ = {
+			isa = PBXGroup;
+			children = (
+				B3943917720D0EBFA050F249 /* Supporting Files */,
+				B394395D47DA9C122DD0A87D /* Images.xcassets */,
+				B3943D80348A27B8E717E2B1 /* AppDelegate.swift */,
+				B3943F71B2ADDD8D2D70DF06 /* Main.storyboard */,
+				B39430D2640C7E15ECE6D0BD /* ViewController.swift */,
+			);
+			path = "Battle.net Authentication Swift";
+			sourceTree = "<group>";
+		};
+		B394314A12DB81EDC77A6C30 = {
+			isa = PBXGroup;
+			children = (
+				B39439264A717EFCA02DEBC5 /* Products */,
+				B394302441CC2D7743CD0BA9 /* Battle.net Authentication Swift */,
+				B394358E5F45214F37F2F2D1 /* Battle.net Authentication SwiftTests */,
+			);
+			sourceTree = "<group>";
+		};
+		B394358E5F45214F37F2F2D1 /* Battle.net Authentication SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				B394361FB3755A68BD7BF646 /* Supporting Files */,
+				B3943DD6AE85233FDAAC1CF3 /* Battle_net_Authentication_SwiftTests.swift */,
+			);
+			path = "Battle.net Authentication SwiftTests";
+			sourceTree = "<group>";
+		};
+		B394361FB3755A68BD7BF646 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B39437283AE5E35FCBDD3A58 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3943917720D0EBFA050F249 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3943BCE318C80812B7ABBB5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B39439264A717EFCA02DEBC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3943FF91479ACFFAEAE477E /* Battle.net Authentication Swift.app */,
+				B3943EC0B3AF596FEEE0C1EC /* Battle.net Authentication SwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B39431C0045B4A69AFBF104B /* Battle.net Authentication SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B39435B30B39A71D1E004C26 /* Build configuration list for PBXNativeTarget "Battle.net Authentication SwiftTests" */;
+			buildPhases = (
+				B39431CB387A2B40CBE14627 /* Sources */,
+				B39432059E99DCEC56777E02 /* Frameworks */,
+				B394375883FC8DBF440965A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B39432FC3FCEB749C005151B /* PBXTargetDependency */,
+			);
+			name = "Battle.net Authentication SwiftTests";
+			productName = "Battle.net Authentication SwiftTests";
+			productReference = B3943EC0B3AF596FEEE0C1EC /* Battle.net Authentication SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B3943DD325B377B59AAEF7E1 /* Battle.net Authentication Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B394322562D942D91F962EB6 /* Build configuration list for PBXNativeTarget "Battle.net Authentication Swift" */;
+			buildPhases = (
+				B3943E454D97FA7A7A990B52 /* Sources */,
+				B39439EACAF2ED31744BFD76 /* Frameworks */,
+				B394347674C710C04733CE6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Battle.net Authentication Swift";
+			productName = "Battle.net Authentication Swift";
+			productReference = B3943FF91479ACFFAEAE477E /* Battle.net Authentication Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B39438928BE1477D4E21E0C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = SwiftBlog;
+			};
+			buildConfigurationList = B39433411EA42B35AA891F50 /* Build configuration list for PBXProject "Battle.net Authentication Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B394314A12DB81EDC77A6C30;
+			productRefGroup = B39439264A717EFCA02DEBC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3943DD325B377B59AAEF7E1 /* Battle.net Authentication Swift */,
+				B39431C0045B4A69AFBF104B /* Battle.net Authentication SwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B394347674C710C04733CE6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B394386C9A848C326F1E8051 /* Images.xcassets in Resources */,
+				B394346D74F764059D443812 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B394375883FC8DBF440965A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B39431CB387A2B40CBE14627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B39435C04225ABA948960E0B /* Battle_net_Authentication_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3943E454D97FA7A7A990B52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3943B50A4B9A54E39DA47D3 /* AppDelegate.swift in Sources */,
+				B3943A7D36F1B4A81184AC49 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B39432FC3FCEB749C005151B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3943DD325B377B59AAEF7E1 /* Battle.net Authentication Swift */;
+			targetProxy = B39431272BC900B56C1E92A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3943F71B2ADDD8D2D70DF06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B394315C3D3D167AD3BB4B74 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3943259E7C50006D9CB45CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Battle.net Authentication Swift.app/Contents/MacOS/Battle.net Authentication Swift";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Battle.net Authentication SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		B3943534517ABB8ECC1F2EDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Battle.net Authentication Swift.app/Contents/MacOS/Battle.net Authentication Swift";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Battle.net Authentication SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		B39438A0E53EC119124FAFD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Battle.net Authentication Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B3943CC5B1653080C078665C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3943D2A437DB0241CFD449C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B3943EDD56DB307F0ABAA8F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Battle.net Authentication Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B394322562D942D91F962EB6 /* Build configuration list for PBXNativeTarget "Battle.net Authentication Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B39438A0E53EC119124FAFD2 /* Debug */,
+				B3943EDD56DB307F0ABAA8F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B39433411EA42B35AA891F50 /* Build configuration list for PBXProject "Battle.net Authentication Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3943CC5B1653080C078665C /* Debug */,
+				B3943D2A437DB0241CFD449C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B39435B30B39A71D1E004C26 /* Build configuration list for PBXNativeTarget "Battle.net Authentication SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3943534517ABB8ECC1F2EDC /* Debug */,
+				B3943259E7C50006D9CB45CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B39438928BE1477D4E21E0C0 /* Project object */;
+}
