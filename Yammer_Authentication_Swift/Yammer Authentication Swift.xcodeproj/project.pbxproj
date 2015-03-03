@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B39431B8A4BBCE09604B4E3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39430DB0AE93344D35DDD23 /* ViewController.swift */; };
+		B39436E9EF25D61B12E93B98 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B394398FAA2BA17F62B1F1E4 /* Images.xcassets */; };
+		B394370031F1E3C9B6DE5935 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B39431EBA1A2A6445B6713A2 /* Main.storyboard */; };
+		B3943AD1D213EFA62D8987F1 /* Yammer_Authentication_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B394333AABB424541742EB75 /* Yammer_Authentication_SwiftTests.swift */; };
+		B3943EF9FA190462EB977808 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3943FA18FCD5FD2E84379C7 /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B39438CA52643E525C13C6E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B39435DCC71F0BA00D5AF765 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3943AF0A9905DA5E06F54CA;
+			remoteInfo = "Yammer Authentication Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B394302A31940FE94C771DFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		B39430DB0AE93344D35DDD23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B3943118B6E11BC955A768EE /* Yammer Authentication SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yammer Authentication SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B394313D318A6555C178B84E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		B394333AABB424541742EB75 /* Yammer_Authentication_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yammer_Authentication_SwiftTests.swift; sourceTree = "<group>"; };
+		B39436D546E7E95B23EC0F5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B39437B88FEF2A7C0E92696B /* Yammer Authentication Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yammer Authentication Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B394398FAA2BA17F62B1F1E4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B3943FA18FCD5FD2E84379C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B39433246D8F42950415B156 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3943BBADA95D4BD4C4F07DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B394321854E50BE35E07E05D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B394302A31940FE94C771DFB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B394329814ADD64BE10F6CF5 /* Yammer Authentication Swift */ = {
+			isa = PBXGroup;
+			children = (
+				B394372B3BC307739A9175F8 /* Supporting Files */,
+				B394398FAA2BA17F62B1F1E4 /* Images.xcassets */,
+				B3943FA18FCD5FD2E84379C7 /* AppDelegate.swift */,
+				B39431EBA1A2A6445B6713A2 /* Main.storyboard */,
+				B39430DB0AE93344D35DDD23 /* ViewController.swift */,
+			);
+			path = "Yammer Authentication Swift";
+			sourceTree = "<group>";
+		};
+		B39435986DC59947CFCE1CBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B39437B88FEF2A7C0E92696B /* Yammer Authentication Swift.app */,
+				B3943118B6E11BC955A768EE /* Yammer Authentication SwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B394362DC8E1063D4C8DE49E /* Yammer Authentication SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				B394321854E50BE35E07E05D /* Supporting Files */,
+				B394333AABB424541742EB75 /* Yammer_Authentication_SwiftTests.swift */,
+			);
+			path = "Yammer Authentication SwiftTests";
+			sourceTree = "<group>";
+		};
+		B394372B3BC307739A9175F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B394313D318A6555C178B84E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3943C2665EE0C3C6316E247 = {
+			isa = PBXGroup;
+			children = (
+				B39435986DC59947CFCE1CBC /* Products */,
+				B394329814ADD64BE10F6CF5 /* Yammer Authentication Swift */,
+				B394362DC8E1063D4C8DE49E /* Yammer Authentication SwiftTests */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3943AF0A9905DA5E06F54CA /* Yammer Authentication Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B394315BEA7E7B9BD48E1B0F /* Build configuration list for PBXNativeTarget "Yammer Authentication Swift" */;
+			buildPhases = (
+				B3943EC834640AEA25C79A00 /* Sources */,
+				B39433246D8F42950415B156 /* Frameworks */,
+				B3943E866B237EB930228F64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Yammer Authentication Swift";
+			productName = "Yammer Authentication Swift";
+			productReference = B39437B88FEF2A7C0E92696B /* Yammer Authentication Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3943CF70617F3E733B54038 /* Yammer Authentication SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3943705B53A362D7C3FC818 /* Build configuration list for PBXNativeTarget "Yammer Authentication SwiftTests" */;
+			buildPhases = (
+				B39432F7EA1D4FCF26BDEBEA /* Sources */,
+				B3943BBADA95D4BD4C4F07DD /* Frameworks */,
+				B39437BBD574D54A8AB9B599 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3943509200B2E10B4E6625C /* PBXTargetDependency */,
+			);
+			name = "Yammer Authentication SwiftTests";
+			productName = "Yammer Authentication SwiftTests";
+			productReference = B3943118B6E11BC955A768EE /* Yammer Authentication SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B39435DCC71F0BA00D5AF765 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = SwiftBlog;
+			};
+			buildConfigurationList = B3943E02FA8E1A76CA37D0ED /* Build configuration list for PBXProject "Yammer Authentication Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B3943C2665EE0C3C6316E247;
+			productRefGroup = B39435986DC59947CFCE1CBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3943AF0A9905DA5E06F54CA /* Yammer Authentication Swift */,
+				B3943CF70617F3E733B54038 /* Yammer Authentication SwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B39437BBD574D54A8AB9B599 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3943E866B237EB930228F64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B39436E9EF25D61B12E93B98 /* Images.xcassets in Resources */,
+				B394370031F1E3C9B6DE5935 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B39432F7EA1D4FCF26BDEBEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3943AD1D213EFA62D8987F1 /* Yammer_Authentication_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3943EC834640AEA25C79A00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3943EF9FA190462EB977808 /* AppDelegate.swift in Sources */,
+				B39431B8A4BBCE09604B4E3F /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3943509200B2E10B4E6625C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3943AF0A9905DA5E06F54CA /* Yammer Authentication Swift */;
+			targetProxy = B39438CA52643E525C13C6E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B39431EBA1A2A6445B6713A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B39436D546E7E95B23EC0F5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B39434A40E879ADED5D59F82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Yammer Authentication Swift.app/Contents/MacOS/Yammer Authentication Swift";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Yammer Authentication SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		B39439040CC39D2D60945422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B3943A83EF53FBDF55EE9146 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3943B3A0F543A39B95ABE02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Yammer Authentication Swift.app/Contents/MacOS/Yammer Authentication Swift";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Yammer Authentication SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		B3943DFB6FF7D4EC5DD0BB1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Yammer Authentication Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B3943EBF80F9491998A382E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Yammer Authentication Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B394315BEA7E7B9BD48E1B0F /* Build configuration list for PBXNativeTarget "Yammer Authentication Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3943EBF80F9491998A382E3 /* Debug */,
+				B3943DFB6FF7D4EC5DD0BB1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B3943705B53A362D7C3FC818 /* Build configuration list for PBXNativeTarget "Yammer Authentication SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3943B3A0F543A39B95ABE02 /* Debug */,
+				B39434A40E879ADED5D59F82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B3943E02FA8E1A76CA37D0ED /* Build configuration list for PBXProject "Yammer Authentication Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3943A83EF53FBDF55EE9146 /* Debug */,
+				B39439040CC39D2D60945422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B39435DCC71F0BA00D5AF765 /* Project object */;
+}
