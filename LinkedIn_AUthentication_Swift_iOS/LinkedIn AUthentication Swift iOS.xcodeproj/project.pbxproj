@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B39435FAAA801747CD6335FF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3943AD3CD96F1F786B588D5 /* LaunchScreen.xib */; };
+		B394389FA3BADEB4D5F1BCD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3943BC60EEE16653F0294C4 /* AppDelegate.swift */; };
+		B3943AE2F0006BA376FEFE0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3943E438B4A058F9822F408 /* Main.storyboard */; };
+		B3943E6673BF6FCA661BE130 /* LinkedIn_AUthentication_Swift_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39432E868E3EF085F8F5F54 /* LinkedIn_AUthentication_Swift_iOSTests.swift */; };
+		B3943F22FACC842E78C6C0D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B394368C05DCC3435B2493C1 /* ViewController.swift */; };
+		B3943FC69A90BE7FAC076AA7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B394376401B3532B6EF4916D /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B394318DFB0BD7DA0636D316 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B394324853BFFD161CB40073 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3943053BD6421C06B1E5184;
+			remoteInfo = "LinkedIn AUthentication Swift iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B39431CE47BDB4A4BE06D6DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B39432E868E3EF085F8F5F54 /* LinkedIn_AUthentication_Swift_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedIn_AUthentication_Swift_iOSTests.swift; sourceTree = "<group>"; };
+		B39433804C099FB27A854B11 /* LinkedIn AUthentication Swift iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LinkedIn AUthentication Swift iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B394368C05DCC3435B2493C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B394376401B3532B6EF4916D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B3943B2E596674C1B77D8BAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		B3943B8551109360D74C832F /* LinkedIn AUthentication Swift iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LinkedIn AUthentication Swift iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3943BC60EEE16653F0294C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3943BEF3A9F2B2E78D3A101 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		B3943EC72040966E27A760CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B394396C748741801F01F212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3943CD5341D6826F4F7A1DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B394304EA309DB10A129C79F = {
+			isa = PBXGroup;
+			children = (
+				B3943601198D78B70460F8B7 /* Products */,
+				B39435094BBD1590A342F1A9 /* LinkedIn AUthentication Swift iOS */,
+				B394389D5D0FAAEAE4FDD2C3 /* LinkedIn AUthentication Swift iOSTests */,
+			);
+			sourceTree = "<group>";
+		};
+		B39435094BBD1590A342F1A9 /* LinkedIn AUthentication Swift iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B39437D1A86EAB72050481D2 /* Supporting Files */,
+				B394376401B3532B6EF4916D /* Images.xcassets */,
+				B3943AD3CD96F1F786B588D5 /* LaunchScreen.xib */,
+				B3943BC60EEE16653F0294C4 /* AppDelegate.swift */,
+				B3943E438B4A058F9822F408 /* Main.storyboard */,
+				B394368C05DCC3435B2493C1 /* ViewController.swift */,
+			);
+			path = "LinkedIn AUthentication Swift iOS";
+			sourceTree = "<group>";
+		};
+		B3943601198D78B70460F8B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B39433804C099FB27A854B11 /* LinkedIn AUthentication Swift iOS.app */,
+				B3943B8551109360D74C832F /* LinkedIn AUthentication Swift iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B39437D1A86EAB72050481D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3943B2E596674C1B77D8BAD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B394389D5D0FAAEAE4FDD2C3 /* LinkedIn AUthentication Swift iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3943F891307BA0B288E2BDF /* Supporting Files */,
+				B39432E868E3EF085F8F5F54 /* LinkedIn_AUthentication_Swift_iOSTests.swift */,
+			);
+			path = "LinkedIn AUthentication Swift iOSTests";
+			sourceTree = "<group>";
+		};
+		B3943F891307BA0B288E2BDF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3943BEF3A9F2B2E78D3A101 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3943053BD6421C06B1E5184 /* LinkedIn AUthentication Swift iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B394356F8B7CC2DD5FE3D14B /* Build configuration list for PBXNativeTarget "LinkedIn AUthentication Swift iOS" */;
+			buildPhases = (
+				B39432819F741B7AD3397F4F /* Sources */,
+				B3943CD5341D6826F4F7A1DB /* Frameworks */,
+				B39430B7D41D12FC7E4E896D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LinkedIn AUthentication Swift iOS";
+			productName = "LinkedIn AUthentication Swift iOS";
+			productReference = B39433804C099FB27A854B11 /* LinkedIn AUthentication Swift iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3943626D591925C9F109710 /* LinkedIn AUthentication Swift iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3943D11D8417CB7BE0C8F10 /* Build configuration list for PBXNativeTarget "LinkedIn AUthentication Swift iOSTests" */;
+			buildPhases = (
+				B39439844FE1A112992DA9DA /* Sources */,
+				B394396C748741801F01F212 /* Frameworks */,
+				B39430B154ECF043D00CF79A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B39433B596C19D4CAF5DD11B /* PBXTargetDependency */,
+			);
+			name = "LinkedIn AUthentication Swift iOSTests";
+			productName = "LinkedIn AUthentication Swift iOSTests";
+			productReference = B3943B8551109360D74C832F /* LinkedIn AUthentication Swift iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B394324853BFFD161CB40073 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = SwiftBlog;
+			};
+			buildConfigurationList = B394376F121B0D64E3543BE1 /* Build configuration list for PBXProject "LinkedIn AUthentication Swift iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B394304EA309DB10A129C79F;
+			productRefGroup = B3943601198D78B70460F8B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3943053BD6421C06B1E5184 /* LinkedIn AUthentication Swift iOS */,
+				B3943626D591925C9F109710 /* LinkedIn AUthentication Swift iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B39430B154ECF043D00CF79A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B39430B7D41D12FC7E4E896D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3943FC69A90BE7FAC076AA7 /* Images.xcassets in Resources */,
+				B39435FAAA801747CD6335FF /* LaunchScreen.xib in Resources */,
+				B3943AE2F0006BA376FEFE0F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B39432819F741B7AD3397F4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B394389FA3BADEB4D5F1BCD7 /* AppDelegate.swift in Sources */,
+				B3943F22FACC842E78C6C0D6 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B39439844FE1A112992DA9DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3943E6673BF6FCA661BE130 /* LinkedIn_AUthentication_Swift_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B39433B596C19D4CAF5DD11B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3943053BD6421C06B1E5184 /* LinkedIn AUthentication Swift iOS */;
+			targetProxy = B394318DFB0BD7DA0636D316 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3943AD3CD96F1F786B588D5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B39431CE47BDB4A4BE06D6DC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		B3943E438B4A058F9822F408 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3943EC72040966E27A760CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3943050D419A2F3905F9875 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3943087BB3C781DB9F11D22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LinkedIn AUthentication Swift iOS.app/LinkedIn AUthentication Swift iOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LinkedIn AUthentication Swift iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		B394330525B5549B1E809E8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B394338366D5621B3434213A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LinkedIn AUthentication Swift iOS.app/LinkedIn AUthentication Swift iOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LinkedIn AUthentication Swift iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		B3943D1021198DFAE959BE0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "LinkedIn AUthentication Swift iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B3943E2C63705EF0F524E9B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "LinkedIn AUthentication Swift iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B394356F8B7CC2DD5FE3D14B /* Build configuration list for PBXNativeTarget "LinkedIn AUthentication Swift iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3943D1021198DFAE959BE0C /* Debug */,
+				B3943E2C63705EF0F524E9B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B394376F121B0D64E3543BE1 /* Build configuration list for PBXProject "LinkedIn AUthentication Swift iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B394330525B5549B1E809E8F /* Debug */,
+				B3943050D419A2F3905F9875 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3943D11D8417CB7BE0C8F10 /* Build configuration list for PBXNativeTarget "LinkedIn AUthentication Swift iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3943087BB3C781DB9F11D22 /* Debug */,
+				B394338366D5621B3434213A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B394324853BFFD161CB40073 /* Project object */;
+}
