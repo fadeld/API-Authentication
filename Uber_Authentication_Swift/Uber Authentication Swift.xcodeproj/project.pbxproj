@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3943579E161FBA53A8B4838 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3943A7049B97D955FC256A8 /* ViewController.swift */; };
+		B3943636B0932B7EAF761BC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3943BBC5F2B6EFB38159EDD /* Main.storyboard */; };
+		B39438D857FBCBADFB4A0796 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3943286C38F5AA21501498F /* AppDelegate.swift */; };
+		B3943C9D2CC537B69A2118C3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3943AF19D901C18753386B1 /* Images.xcassets */; };
+		B3943EF5FF919FFA52A8E0CA /* Uber_Authentication_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3943BF2E1826FB195320A5A /* Uber_Authentication_SwiftTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3943B415D56B3D1B2A30C01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3943E9CAC0A96D9B56FE72D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B39439386BAD2AD2AC7D3B57;
+			remoteInfo = "Uber Authentication Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B39430EA9EF654E52037F69F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		B3943286C38F5AA21501498F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B39433AA4D6F1BBDB5F9BD8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		B39438AE0CCA58E30AC35FFF /* Uber Authentication SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Uber Authentication SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3943A7049B97D955FC256A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B3943AF19D901C18753386B1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B3943BF2E1826FB195320A5A /* Uber_Authentication_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uber_Authentication_SwiftTests.swift; sourceTree = "<group>"; };
+		B3943DCDC765A44254F1659E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3943EB88AC8A03C8A33263A /* Uber Authentication Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Uber Authentication Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B39433B6128ADD3DE93474DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3943689DC96402B803B8359 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B39434A55287AC67206AB85B /* Uber Authentication SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3943CF1E7EEC21421E83F76 /* Supporting Files */,
+				B3943BF2E1826FB195320A5A /* Uber_Authentication_SwiftTests.swift */,
+			);
+			path = "Uber Authentication SwiftTests";
+			sourceTree = "<group>";
+		};
+		B3943844EA61A1444C4CFC09 = {
+			isa = PBXGroup;
+			children = (
+				B3943F7AB5DD784A570A936C /* Products */,
+				B3943DD5A09C4486E7423CAB /* Uber Authentication Swift */,
+				B39434A55287AC67206AB85B /* Uber Authentication SwiftTests */,
+			);
+			sourceTree = "<group>";
+		};
+		B3943CF1E7EEC21421E83F76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B39430EA9EF654E52037F69F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3943DD5A09C4486E7423CAB /* Uber Authentication Swift */ = {
+			isa = PBXGroup;
+			children = (
+				B3943DFFDE0F133ABB48E910 /* Supporting Files */,
+				B3943AF19D901C18753386B1 /* Images.xcassets */,
+				B3943286C38F5AA21501498F /* AppDelegate.swift */,
+				B3943BBC5F2B6EFB38159EDD /* Main.storyboard */,
+				B3943A7049B97D955FC256A8 /* ViewController.swift */,
+			);
+			path = "Uber Authentication Swift";
+			sourceTree = "<group>";
+		};
+		B3943DFFDE0F133ABB48E910 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B39433AA4D6F1BBDB5F9BD8E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3943F7AB5DD784A570A936C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3943EB88AC8A03C8A33263A /* Uber Authentication Swift.app */,
+				B39438AE0CCA58E30AC35FFF /* Uber Authentication SwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B39439386BAD2AD2AC7D3B57 /* Uber Authentication Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3943C84998077C3A59B5F3E /* Build configuration list for PBXNativeTarget "Uber Authentication Swift" */;
+			buildPhases = (
+				B3943B344EDF8247ADAA8526 /* Sources */,
+				B3943689DC96402B803B8359 /* Frameworks */,
+				B394347DB302C9F58B517E36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Uber Authentication Swift";
+			productName = "Uber Authentication Swift";
+			productReference = B3943EB88AC8A03C8A33263A /* Uber Authentication Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3943F4C2400078D6E14D1E8 /* Uber Authentication SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B39432BE4F8CBC67B0A32677 /* Build configuration list for PBXNativeTarget "Uber Authentication SwiftTests" */;
+			buildPhases = (
+				B3943FCA93093183D929C3FC /* Sources */,
+				B39433B6128ADD3DE93474DA /* Frameworks */,
+				B39430396E2D1A039373257E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3943C3501F35006B86D74F5 /* PBXTargetDependency */,
+			);
+			name = "Uber Authentication SwiftTests";
+			productName = "Uber Authentication SwiftTests";
+			productReference = B39438AE0CCA58E30AC35FFF /* Uber Authentication SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3943E9CAC0A96D9B56FE72D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = SwiftBlog;
+			};
+			buildConfigurationList = B394334F8F8423BC2889EB89 /* Build configuration list for PBXProject "Uber Authentication Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B3943844EA61A1444C4CFC09;
+			productRefGroup = B3943F7AB5DD784A570A936C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B39439386BAD2AD2AC7D3B57 /* Uber Authentication Swift */,
+				B3943F4C2400078D6E14D1E8 /* Uber Authentication SwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B39430396E2D1A039373257E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B394347DB302C9F58B517E36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3943C9D2CC537B69A2118C3 /* Images.xcassets in Resources */,
+				B3943636B0932B7EAF761BC5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3943B344EDF8247ADAA8526 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B39438D857FBCBADFB4A0796 /* AppDelegate.swift in Sources */,
+				B3943579E161FBA53A8B4838 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3943FCA93093183D929C3FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3943EF5FF919FFA52A8E0CA /* Uber_Authentication_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3943C3501F35006B86D74F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B39439386BAD2AD2AC7D3B57 /* Uber Authentication Swift */;
+			targetProxy = B3943B415D56B3D1B2A30C01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3943BBC5F2B6EFB38159EDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3943DCDC765A44254F1659E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3943750E871C9102047D0BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Uber Authentication Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B3943943384ED067D0EF1D95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3943A341996C26162C0FC8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Uber Authentication Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B3943D9DEB7E3F31AA3FC715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B3943E45A6C8183B2131E0A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Uber Authentication Swift.app/Contents/MacOS/Uber Authentication Swift";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Uber Authentication SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		B3943FBBA8371190759B04CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Uber Authentication Swift.app/Contents/MacOS/Uber Authentication Swift";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Uber Authentication SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B39432BE4F8CBC67B0A32677 /* Build configuration list for PBXNativeTarget "Uber Authentication SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3943E45A6C8183B2131E0A3 /* Debug */,
+				B3943FBBA8371190759B04CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B394334F8F8423BC2889EB89 /* Build configuration list for PBXProject "Uber Authentication Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3943943384ED067D0EF1D95 /* Debug */,
+				B3943D9DEB7E3F31AA3FC715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3943C84998077C3A59B5F3E /* Build configuration list for PBXNativeTarget "Uber Authentication Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3943750E871C9102047D0BE /* Debug */,
+				B3943A341996C26162C0FC8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3943E9CAC0A96D9B56FE72D /* Project object */;
+}

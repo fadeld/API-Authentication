@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B394394B96E4139D64D37067"
+               BuildableName = "PayPal Authentication Swift.app"
+               BlueprintName = "PayPal Authentication Swift"
+               ReferencedContainer = "container:PayPal Authentication Swift.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "B394394B96E4139D64D37067"
+            BuildableName = "PayPal Authentication Swift.app"
+            BlueprintName = "PayPal Authentication Swift"
+            ReferencedContainer = "container:PayPal Authentication Swift.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+</Scheme>
