@@ -1,6 +1,8 @@
-# API Authentication 
-Here are examples of API authentication in Swift and Java. 
+# API Authentication Samples
+Here are examples of API authentication in Swift (OS X and iOS) and Java, for LinkedIn, Facebook, meetup.com, Yammer, Amazon, Paypal, FourSquare, Salesforce, AOL, Battle.net, Twitch and Uber. 
 
-The Swift sample apps were implmented on IntelliJ AppCode 3.1 IDE. The UI is created programmatically, without Interface Builder. The Java sample apps were implmented on IntelliJ IDEA 14 IDE. 
+The purpose of the project is to show a simple working implementation of API authentication using web server authentication flow. The examples do not handle exceptions, to keep the code clear and readable. 
 
-I do not have the time to support this project, but I can provide consulting hours or develop authentication for your API upon request (upfront payments). 
+IDE details are on the wiki page. 
+
+I hope this would be useful. 
