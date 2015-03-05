@@ -53,6 +53,6 @@ The purpose of the project is to show a simple working implementation of API aut
    (E)  The authorization server validates the client credentials and
         the verification code and responds back with the access token.
 
-
+Once the access token is available, you can initiate authenticated API requests on behalf of the end user. 
 
 IDE details and some FAQ are on the wiki page.
