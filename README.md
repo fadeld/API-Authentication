@@ -56,3 +56,8 @@ The purpose of the project is to show a simple working implementation of API aut
 Once the access token is available, you can initiate authenticated API requests on behalf of the end user. 
 
 IDE details and some FAQ are on the wiki page.
+
+
+### App vs. Applet (then and now)
+
+![](https://github.com/h0n3yBadg3r/API-Authentication/blob/master/app-vs-applet.png)
