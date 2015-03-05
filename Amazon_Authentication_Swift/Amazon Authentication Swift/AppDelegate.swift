@@ -77,13 +77,15 @@ class AppDelegate: NSObject, NSApplicationDelegate, WKNavigationDelegate {
             println(authCode)
             println(dict["state"])
 
-            var tokenUrl = NSURL(string: "https://api.amazon.com/auth/o2/token?grant_type=\(grantType)&code=\(authCode)&redirect_uri=\(redirectUrl)&client_id=\(apiKey)&client_secret=\(secretKey)")
+            var tokenUrl = NSURL(string: "https://api.amazon.com/auth/o2/token")
+            var params: NSString = "grant_type=\(grantType)&code=\(authCode)&redirect_uri=\(redirectUrl)&client_id=\(apiKey)&client_secret=\(secretKey)" as NSString
 
             var session = NSURLSession.sharedSession()
             var requestToken = NSMutableURLRequest(URL: tokenUrl!)
 
             requestToken.HTTPMethod = "POST"
             requestToken.addValue("application/x-www-form-urlencoded;charset=UTF-8", forHTTPHeaderField: "Content-Type")
+            requestToken.HTTPBody = params.dataUsingEncoding(NSUTF8StringEncoding)
 
             var task = session.dataTaskWithRequest(requestToken, completionHandler: {
                 data, response, error -> Void in
