@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B39436DEC65D3FC564F739F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3943EAECE38460AAD1283C4 /* Images.xcassets */; };
+		B394372BF36918C86C7F27A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B39437E9A30787E99A1A492C /* Main.storyboard */; };
+		B39438391FE8A1CE64479FA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3943AD68A0D62EAAF261023 /* AppDelegate.swift */; };
+		B39438BDD458A7813C525269 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39433C0D5A2A87294668F48 /* ViewController.swift */; };
+		B3943E1AF20280042C4CBB69 /* AOL_Authentication_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39437CB7653DB7507D94334 /* AOL_Authentication_SwiftTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B39436D9FF88A3717FA7D560 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3943A6008775F79C3C863D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B39434C14DD25A04BB8A3CD8;
+			remoteInfo = "AOL Authentication Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B394307E8E6FD46408CA2C03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B39433C0D5A2A87294668F48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B394357C574EFB5E804B0D3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		B39437CB7653DB7507D94334 /* AOL_Authentication_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOL_Authentication_SwiftTests.swift; sourceTree = "<group>"; };
+		B3943AD68A0D62EAAF261023 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3943B5A4B97E87E3C9AB72A /* AOL Authentication SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AOL Authentication SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3943C34768700FC765E473F /* AOL Authentication Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AOL Authentication Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3943D2E0E0F5BCDAA6CE146 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		B3943EAECE38460AAD1283C4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B394398D0C906E018F3B16BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B39439ED62A402FD6C230BD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B39436775F9A80E22265FD15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3943C34768700FC765E473F /* AOL Authentication Swift.app */,
+				B3943B5A4B97E87E3C9AB72A /* AOL Authentication SwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3943A08CA9CA2FDC8ECDF31 = {
+			isa = PBXGroup;
+			children = (
+				B39436775F9A80E22265FD15 /* Products */,
+				B3943D89CB95FBC881D1E7D6 /* AOL Authentication Swift */,
+				B3943D405CE0F919EEDC31D9 /* AOL Authentication SwiftTests */,
+			);
+			sourceTree = "<group>";
+		};
+		B3943D405CE0F919EEDC31D9 /* AOL Authentication SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3943E435A3A5C8EF00AB88A /* Supporting Files */,
+				B39437CB7653DB7507D94334 /* AOL_Authentication_SwiftTests.swift */,
+			);
+			path = "AOL Authentication SwiftTests";
+			sourceTree = "<group>";
+		};
+		B3943D89CB95FBC881D1E7D6 /* AOL Authentication Swift */ = {
+			isa = PBXGroup;
+			children = (
+				B3943ECF8C0CB8C915188C8E /* Supporting Files */,
+				B3943EAECE38460AAD1283C4 /* Images.xcassets */,
+				B3943AD68A0D62EAAF261023 /* AppDelegate.swift */,
+				B39437E9A30787E99A1A492C /* Main.storyboard */,
+				B39433C0D5A2A87294668F48 /* ViewController.swift */,
+			);
+			path = "AOL Authentication Swift";
+			sourceTree = "<group>";
+		};
+		B3943E435A3A5C8EF00AB88A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3943D2E0E0F5BCDAA6CE146 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3943ECF8C0CB8C915188C8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B394357C574EFB5E804B0D3F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B39434C14DD25A04BB8A3CD8 /* AOL Authentication Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B39439CF2C38B0508E88DE38 /* Build configuration list for PBXNativeTarget "AOL Authentication Swift" */;
+			buildPhases = (
+				B3943B47A9051668EEF44CBE /* Sources */,
+				B394398D0C906E018F3B16BC /* Frameworks */,
+				B394327718E7E5BD66886A4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AOL Authentication Swift";
+			productName = "AOL Authentication Swift";
+			productReference = B3943C34768700FC765E473F /* AOL Authentication Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3943CD8451F63DB6D7D6E1E /* AOL Authentication SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3943B45922AA6353B77321A /* Build configuration list for PBXNativeTarget "AOL Authentication SwiftTests" */;
+			buildPhases = (
+				B3943A53008990259ED212D2 /* Sources */,
+				B39439ED62A402FD6C230BD1 /* Frameworks */,
+				B39436C1819627FD5E27E445 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B394376A869D43836C61097C /* PBXTargetDependency */,
+			);
+			name = "AOL Authentication SwiftTests";
+			productName = "AOL Authentication SwiftTests";
+			productReference = B3943B5A4B97E87E3C9AB72A /* AOL Authentication SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3943A6008775F79C3C863D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = SwiftBlog;
+			};
+			buildConfigurationList = B3943ECA74BB4A16F1221C16 /* Build configuration list for PBXProject "AOL Authentication Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B3943A08CA9CA2FDC8ECDF31;
+			productRefGroup = B39436775F9A80E22265FD15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B39434C14DD25A04BB8A3CD8 /* AOL Authentication Swift */,
+				B3943CD8451F63DB6D7D6E1E /* AOL Authentication SwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B394327718E7E5BD66886A4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B39436DEC65D3FC564F739F6 /* Images.xcassets in Resources */,
+				B394372BF36918C86C7F27A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B39436C1819627FD5E27E445 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3943A53008990259ED212D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3943E1AF20280042C4CBB69 /* AOL_Authentication_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3943B47A9051668EEF44CBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B39438391FE8A1CE64479FA0 /* AppDelegate.swift in Sources */,
+				B39438BDD458A7813C525269 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B394376A869D43836C61097C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B39434C14DD25A04BB8A3CD8 /* AOL Authentication Swift */;
+			targetProxy = B39436D9FF88A3717FA7D560 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B39437E9A30787E99A1A492C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B394307E8E6FD46408CA2C03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3943119261DA8D395CB6A49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "AOL Authentication Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B394399C0B83D9DB09E65BE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AOL Authentication Swift.app/Contents/MacOS/AOL Authentication Swift";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AOL Authentication SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		B3943AAA79E582F816B01C36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AOL Authentication Swift.app/Contents/MacOS/AOL Authentication Swift";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AOL Authentication SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		B3943D60419E69054D3A082E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "AOL Authentication Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B3943E96A325B4FC9412133B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B3943F3875F15D5CB6A5D0EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B39439CF2C38B0508E88DE38 /* Build configuration list for PBXNativeTarget "AOL Authentication Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3943D60419E69054D3A082E /* Debug */,
+				B3943119261DA8D395CB6A49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B3943B45922AA6353B77321A /* Build configuration list for PBXNativeTarget "AOL Authentication SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3943AAA79E582F816B01C36 /* Debug */,
+				B394399C0B83D9DB09E65BE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B3943ECA74BB4A16F1221C16 /* Build configuration list for PBXProject "AOL Authentication Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3943F3875F15D5CB6A5D0EF /* Debug */,
+				B3943E96A325B4FC9412133B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3943A6008775F79C3C863D5 /* Project object */;
+}
