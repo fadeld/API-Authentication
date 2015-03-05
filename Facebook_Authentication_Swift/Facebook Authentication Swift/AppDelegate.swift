@@ -19,9 +19,9 @@ class AppDelegate: NSObject, NSApplicationDelegate, WKNavigationDelegate {
     let webView = WKWebView(frame: NSMakeRect(0, 0, NSScreen.mainScreen()!.frame.width/2, NSScreen.mainScreen()!.frame.height*0.75))
 
     // Step 1:  Define the authentication parameters
-    var redirectUrl = "http://www.apakau.com/"
-    let appID = "433011653533087"
-    let secretKey = "76fca3fd044ceac0913382c10f2779e6"
+    var redirectUrl = ""
+    let appID = ""
+    let secretKey = ""
     let responseType = "code"
     let randomState = "jdhfgrueFSH16dh88352jsGSD"
 

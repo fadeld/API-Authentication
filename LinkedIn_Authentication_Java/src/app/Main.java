@@ -45,9 +45,9 @@ public class Main extends Application {
     HttpClient _client = new DefaultHttpClient();
 
     // Step 1:  Define the authentication parameters
-    public static final String CALLBACK_URL = "http://www.apakau.com";
-    public static final String KEY = "75kh1ysttpalza";
-    public static final String SEC = "usAFNc1FF6MyVG2C";
+    public static final String CALLBACK_URL = "";
+    public static final String KEY = "";
+    public static final String SEC = "";
     public static final String RAND_STATE = "gfdgfgdfydy";
 
     public static final String CODE_URL1 = "https://www.linkedin.com/uas/oauth2/authorization?response_type=code" +

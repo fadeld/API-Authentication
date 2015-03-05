@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d5d9210-05df-479e-8d30-910dd272b0c1" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AOL_Authentication_Swift/AOL Authentication Swift/AppDelegate.swift" afterPath="$PROJECT_DIR$/../AOL_Authentication_Swift/AOL Authentication Swift/AppDelegate.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Amazon_Authentication_Swift/Amazon Authentication Swift/AppDelegate.swift" afterPath="$PROJECT_DIR$/../Amazon_Authentication_Swift/Amazon Authentication Swift/AppDelegate.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Battle.net_Authentication_Swift/Battle.net Authentication Swift/AppDelegate.swift" afterPath="$PROJECT_DIR$/../Battle.net_Authentication_Swift/Battle.net Authentication Swift/AppDelegate.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Foursquare Authentication Swift/AppDelegate.swift" afterPath="$PROJECT_DIR$/Foursquare Authentication Swift/AppDelegate.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Meetup_Authentication_Swift/Meetup Authentication Swift/AppDelegate.swift" afterPath="$PROJECT_DIR$/../Meetup_Authentication_Swift/Meetup Authentication Swift/AppDelegate.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PayPal_Authentication_Swift/PayPal Authentication Swift/AppDelegate.swift" afterPath="$PROJECT_DIR$/../PayPal_Authentication_Swift/PayPal Authentication Swift/AppDelegate.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Salesforce_Authentication_Swift/Salesforce Authentication Swift/AppDelegate.swift" afterPath="$PROJECT_DIR$/../Salesforce_Authentication_Swift/Salesforce Authentication Swift/AppDelegate.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Twitch_Authentication_Swift/Twitch Authentication Swift/AppDelegate.swift" afterPath="$PROJECT_DIR$/../Twitch_Authentication_Swift/Twitch Authentication Swift/AppDelegate.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AOL_Authentication_Swift/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../AOL_Authentication_Swift/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Amazon_Authentication_Swift/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Amazon_Authentication_Swift/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Meetup_Authentication_Swift/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Meetup_Authentication_Swift/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PayPal_Authentication_Swift/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../PayPal_Authentication_Swift/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Salesforce_Authentication_Swift/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Salesforce_Authentication_Swift/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Twitch_Authentication_Swift/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Twitch_Authentication_Swift/.idea/workspace.xml" />
     </list>
     <ignored path="Foursquare_Authentication_Swift.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,8 +42,8 @@
       <file leaf-file-name="AppDelegate.swift" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Foursquare Authentication Swift/AppDelegate.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49275362" vertical-offset="1243" max-vertical-offset="2220">
-              <caret line="101" column="97" selection-start-line="101" selection-start-column="97" selection-end-line="101" selection-end-column="97" />
+            <state vertical-scroll-proportion="0.34846884" vertical-offset="0" max-vertical-offset="2220">
+              <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -131,7 +144,7 @@
     <property name="recentsLimit" value="5" />
   </component>
   <component name="RunManager" selected="Application.Foursquare Authentication Swift">
-    <configuration default="false" name="Foursquare Authentication Swift" type="AppleRunConfiguration" factoryName="Application" temporary="true" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Foursquare Authentication Swift" TARGET_NAME="Foursquare Authentication Swift" CONFIG_NAME="Debug" SCHEME_NAME="Foursquare Authentication Swift" RUN_TARGET_PROJECT_NAME="Foursquare Authentication Swift" RUN_TARGET_NAME="Foursquare Authentication Swift" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+    <configuration default="false" name="Foursquare Authentication Swift" type="AppleRunConfiguration" factoryName="Application" temporary="true" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Foursquare Authentication Swift" TARGET_NAME="Foursquare Authentication Swift" CONFIG_NAME="Debug" SCHEME_NAME="Foursquare Authentication Swift" RUN_TARGET_PROJECT_NAME="Foursquare Authentication Swift" RUN_TARGET_NAME="Foursquare Authentication Swift" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
       <envs />
       <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
         <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
@@ -168,28 +181,28 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1930" y="23" width="1452" height="1057" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39979756" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39979756" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -213,11 +226,18 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Foursquare Authentication Swift/AppDelegate.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Foursquare Authentication SwiftTests/Foursquare_Authentication_SwiftTests.swift">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
           <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -225,14 +245,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
           <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Foursquare Authentication Swift/AppDelegate.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49275362" vertical-offset="1243" max-vertical-offset="2220">
-          <caret line="101" column="97" selection-start-line="101" selection-start-column="97" selection-end-line="101" selection-end-column="97" />
+        <state vertical-scroll-proportion="0.34846884" vertical-offset="0" max-vertical-offset="2220">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
           <folding />
         </state>
       </provider>

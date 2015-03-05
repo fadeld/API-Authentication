@@ -20,9 +20,9 @@ class AppDelegate: NSObject, NSApplicationDelegate, WKNavigationDelegate {
 
     // Step 1:  Define the authentication parameters
     let grantType = "authorization_code"
-    var redirectUrl = "https://www.google.com/"
-    let apiKey = "amzn1.application-oa2-client.243b02ccd0b641e082b2bbfb08443666"
-    let secretKey = "935dae861b4cc1c1cde87190bd8dc33a7d4444b92e0399b7c32ec6dd3f68bf04"
+    var redirectUrl = ""
+    let apiKey = ""
+    let secretKey = ""
     let responseType = "code"
     let randomState = "jdhfgrueFSH16dh88352jsGSD"
     let scope = "profile"

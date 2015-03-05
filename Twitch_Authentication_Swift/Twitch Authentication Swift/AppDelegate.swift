@@ -20,9 +20,9 @@ class AppDelegate: NSObject, NSApplicationDelegate, WKNavigationDelegate {
 
     // Step 1:  Define the authentication parameters
     let grantType = "authorization_code"
-    var redirectUrl = "http://www.apakau.com"
-    let apiKey = "3ngmgogr3ayr819x8s6y9hxi8ytqx6o"
-    let secretKey = "fs72nfnjud68gll60jbs0qo4dowdtkj"
+    var redirectUrl = ""
+    let apiKey = ""
+    let secretKey = ""
     let responseType = "code"
     let randomState = "jdhfgrueFSH16dh88352jsGSD"
     let scope = "user_read"
