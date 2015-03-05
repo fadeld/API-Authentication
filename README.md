@@ -3,6 +3,11 @@ Here are examples of API authentication in Swift (OS X and iOS) and Java, for Li
 
 The purpose of the project is to show a simple working implementation of API authentication using web server authentication flow of OAuth 2.0 (https://tools.ietf.org/html/draft-ietf-oauth-v2-02#section-3.5.2). The examples do not handle exceptions, to keep the code clear and readable. 
 
+IDE details and some FAQ are on the wiki page.
+
+
+
+### Authentication Flow and Steps
 
 
      +----------+         Client Identifier       +---------------+
@@ -54,8 +59,6 @@ The purpose of the project is to show a simple working implementation of API aut
         the verification code and responds back with the access token.
 
 Once the access token is available, you can initiate authenticated API requests on behalf of the end user. 
-
-IDE details and some FAQ are on the wiki page.
 
 
 ### App vs. Applet (then and now)
